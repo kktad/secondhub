@@ -1,0 +1,53 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "HublotStandardItems",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+			{
+                "name": "layout-feature",
+                "path": "/sitecore/layout/Layouts/Feature/Hublot"
+            },
+            {
+                "name": "renderings-feature",
+                "path": "/sitecore/layout/Renderings/Feature/Hublot"
+            },
+            {
+                "name": "renderings-tenant",
+                "path": "/sitecore/layout/Renderings/Project/HeadlessTenant"
+            },
+			{
+                "name": "placeholders-feature",
+                "path": "/sitecore/layout/Placeholder Settings/Feature/Hublot"
+            },
+            {
+                "name": "placeholders-headlesstenant",
+                "path": "/sitecore/layout/Placeholder Settings/Project/HeadlessTenant"
+            },
+            {
+                "name": "media-library-feature",
+                "path": "/sitecore/media library/Feature/Hublot"
+            },
+            {
+                "name": "media-library-headlesstenant",
+                "path": "/sitecore/media library/Project/HeadlessTenant"
+            },
+            {
+                "name": "settings-feature",
+                "path": "/sitecore/system/Settings/Feature/Hublot"
+            },
+            {
+                "name": "templates-branches",
+                "path": "/sitecore/templates/Branches/Feature/Hublot"
+            },
+            {
+                "name": "templates-project",
+                "path": "/sitecore/templates/Project/HeadlessTenant"
+            },
+            {
+                "name": "templates-feature",
+                "path": "/sitecore/templates/Feature/Hublot"
+            }
+        ]
+    }
+}

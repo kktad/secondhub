@@ -1,0 +1,42 @@
+﻿---
+ID: "0dd69a7d-f972-4c2b-89ac-6bf8bfca8b72"
+Parent: "ad18e950-ad56-4eff-b32b-12e2c6914a5c"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/HeadlessTenant/Hublot/Presentation/Available Renderings/GeneralComponents
+BranchID: "3a3fa1ad-d47f-4859-9e1f-db9bec62570a"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {C7DD89ED-4F7D-4DEF-BE5B-689DAFCD41AD}
+    {06888E26-97C5-4351-9718-CA36175042F8}
+    {39F5C43D-BF6E-49D7-9D1B-5AB7F7135619}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{12F6E395-6F75-402F-86C4-A6E3D05BF854}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T063719Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c72b5bca-81e1-4377-8fd1-849e5e8deaf5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240201T063719Z

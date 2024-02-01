@@ -1,0 +1,13 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "HublotContentItems",
+    "references": [ "HublotStandardItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "content-tenant",
+                "path": "/sitecore/content/HeadlessTenant"
+            }
+        ]
+    }
+}
