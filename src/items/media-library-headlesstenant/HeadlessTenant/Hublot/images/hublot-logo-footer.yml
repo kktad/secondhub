@@ -1,0 +1,51 @@
+﻿---
+ID: "7707c724-483f-4592-9b1e-25279c4b734b"
+Parent: "ac4a17dd-d405-4550-a9f9-15e2e64bedd9"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/Project/HeadlessTenant/Hublot/images/hublot-logo-footer"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "-/media/7707C724483F45929B1E25279C4B734B.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "70595e4b-ea4a-44b8-b96c-c6277cc2f928"
+  Value: PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyNSAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI0LjcwOTUgMC41NDI5NjFIMjEuNzQ4NUMyMS43NDg1IDMuNTE3MTYgMjAuNjA0OCA1LjMzMzUyIDE3LjQ3OTggNi43NzE1NVYwLjU0Mjk2MUgxNC41MDAxVjcuODY4MDRDMTMuNzY2MyA4LjA5MDU3IDEyLjk2ODQgOC4zMDgyIDEyLjA5OTEgOC41MjQ1MkgxMi4wOTcxQzExLjQ0NDUgOC42ODMxNyAxMC44MTU4IDguODQ5MyAxMC4yMDg2IDkuMDIzMTNWMC41NDI5NjFINy4yMjg5OFYxMC4wMjlDMi42NDA4NSAxMS44Njc5IDAgMTQuNjA0NyAwIDE5LjQ3NTZIMi45NjEwOUMyLjk2MTA5IDE2LjUwMTYgNC4xMDQyOCAxNC42ODUzIDcuMjI4OTggMTMuMjQ3VjE5LjQ3NTZIMTAuMjA4NlYxMi4xNTA3QzEwLjk0MjggMTEuOTI4MSAxMS43NDA4IDExLjcxIDEyLjYxMDQgMTEuNDkzNkgxMi42MTI2QzEzLjI2NDcgMTEuMzM1MSAxMy44OTMzIDExLjE2OTQgMTQuNTAwMSAxMC45OTU2VjE5LjQ3NTZIMTcuNDc5OFY5Ljk4OTg4QzIyLjA2ODcgOC4xNTA4MiAyNC43MDk1IDUuNDE0MDUgMjQuNzA5NSAwLjU0Mjk2MVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 644
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230524T121454Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rohith.monigari@tadigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rohith.monigari@tadigital.com
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: footer logo
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0d2f84de-d0d4-48f1-8b43-eb09811ad143"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BynFJuDuyc
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240214T195911Z

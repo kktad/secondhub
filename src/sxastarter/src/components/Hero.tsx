@@ -1,36 +1,36 @@
 import {
-    Field,
-    RichText,
-    withDatasourceCheck,
-    Image,
-    ImageField,
-  } from '@sitecore-jss/sitecore-jss-nextjs';
-  import { ComponentProps } from 'lib/component-props';
-  import React from 'react';
-  type HeroProps = ComponentProps & {
-    fields: {
-      heroimg: ImageField;
-      herotext: Field<string>;
-    };
+  RichText,
+  withDatasourceCheck,
+  Image,
+  ImageField,
+  RichTextField,
+} from '@sitecore-jss/sitecore-jss-nextjs';
+import { ComponentProps } from 'lib/component-props';
+import React from 'react';
+type HeroProps = ComponentProps & {
+  fields: {
+    HeroImage: ImageField;
+    HeroText: RichTextField;
   };
-  const Hero = (props: HeroProps): JSX.Element => (
+};
+const Hero = ({fields}: HeroProps): JSX.Element => { 
+  return (
     <div className="hero">
       <div className="heroImg">
-        <Image field={props.fields.heroimg} />
+        <Image field={fields.HeroImage} />
       </div>
-      <React.Fragment>
-        <RichText
-          field={props.fields.herotext}
-          tag="section"
-          className="herotext"
-          data-sample="other-attributes-pass-through"
-        />
-      </React.Fragment>
+      <RichText
+        field={fields.HeroText}
+        tag="section"
+        className="herotext"
+        data-sample="other-attributes-pass-through"
+      />
       <div className="heroCTA">
         <button>FIND YOUR WATCH</button>
         <button>FIND A BOUTIQUE</button>
         <button>FIND YOUR STRAP</button>
       </div>
     </div>
-  );
-  export default withDatasourceCheck()<HeroProps>(Hero);
+  )
+};
+export default withDatasourceCheck()<HeroProps>(Hero);

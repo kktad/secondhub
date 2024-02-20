@@ -1,0 +1,30 @@
+﻿---
+ID: "570a7a2b-eaf8-49f7-818b-45e8580a9164"
+Parent: "c827713b-69b9-4da7-9a52-75e42569d2b7"
+Template: "cc52f257-a185-4a18-a622-2c49a8e0253e"
+Path: /sitecore/content/HeadlessTenant/Hublot/Data/Header/Our World
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240212T145815Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe10511f-e662-4087-a567-2df61b50e4a4"
+    - ID: "962abda4-0fb6-4090-a911-eebb93d784c4"
+      Hint: Link
+      Value: |
+        <link class="" id="{6C6CAB42-F3C9-4187-A97A-D79312F0ECA9}" querystring="" anchor="" target="" title="" linktype="internal" text="" url="/HeadlessTenant/Hublot/Home/Our World" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d85339fb-603e-488e-bf3e-8a6228c39504"
+      Hint: Text
+      Value: Our World
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240215T143124Z

@@ -1,12 +1,33 @@
-import { ImageField, Image, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+import { ImageField, withDatasourceCheck, Image } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
-type FooterProps = ComponentProps & {
-  fields: {
-    footerimg: ImageField;
-  };
+type FooterItem = {
+  link: string,
+  text: string
 };
+
+type FooterProps = ComponentProps & {
+  params: { FooterImage: ImageField };
+  fields: Fields;
+};
+
+
+interface Fields {
+  items: FooterItem[];
+}
+
+const FooterLink = (props: FooterItem) => {
+  return (
+    <a href={`${props.link}`}>{props.text}</a>
+  );
+};
+
 const Footer = (props: FooterProps): JSX.Element => {
+  const list = props.fields.items
+    .map((element: FooterItem, key: number) => (
+      <FooterLink key={`${key}${element.link}`} link={element.link} text={element.text} />
+    ));
+
   return (
     <div className="footer">
       <div className="newsletter">
@@ -15,18 +36,11 @@ const Footer = (props: FooterProps): JSX.Element => {
         <a className="open-button">Sign Up</a>
       </div>
       <div className="footerlogo">
-        <Image field={props.fields.footerimg} />
+        <Image field={props.params.FooterImage} />
       </div>
       <div className="footernav">
         <nav>
-          <a href="">Newsletter</a>
-          <a href="">Career</a>
-          <a href="">Support</a>
-          <a href="">About Us</a>
-          <a href="">Hublot Worldwide</a>
-          <a href="">Terms Of Use</a>
-          <a href="">Trademarks</a>
-          <a href="">Accessibility</a>
+          {list}
         </nav>
         <nav>
           <a href="">

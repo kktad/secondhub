@@ -1,0 +1,38 @@
+﻿---
+ID: "5ce40a80-8ea8-4532-86a4-bcc827bd5392"
+Parent: "a2a2951a-e1f5-4b61-8b2f-961e2aa3606a"
+Template: "a72dc800-2816-4dea-8d79-86f29a922d78"
+Path: /sitecore/content/HeadlessTenant/Hublot/Data/Products/Products
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240220T133806Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "291f6355-8df9-4e34-819f-bb56a9f9fd91"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240220T134044Z
+    - ID: "e104d691-c74f-4c7c-b332-a8ab63cd5c33"
+      Hint: ProductsList
+      Value: |
+        {46D5E495-EA89-4C0F-AB0A-E7D46F2DB703}
+        {12B02486-CCA7-45E6-90D9-2286AB93B809}
+        {433C5259-0B33-4502-9486-2DC9841EBD8C}
+        {3A6F8B1C-F1F6-4EF0-B450-BEC5B8280783}

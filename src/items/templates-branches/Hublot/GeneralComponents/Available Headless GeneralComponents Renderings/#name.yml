@@ -10,6 +10,8 @@ SharedFields:
     {C7DD89ED-4F7D-4DEF-BE5B-689DAFCD41AD}
     {06888E26-97C5-4351-9718-CA36175042F8}
     {39F5C43D-BF6E-49D7-9D1B-5AB7F7135619}
+    {4EEDF79D-F84B-4663-9B82-576A83A955A4}
+    {1152697D-D611-4FEA-9E70-3FC4F2A4991E}
 Languages:
 - Language: en
   Versions:
@@ -24,11 +26,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c221f7df-b818-495c-be47-fc736e7f59c4"
+      Value: "c1412b59-9acf-4444-87cf-ce14e894889e"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240201T060538Z
+      Value: 20240220T122420Z

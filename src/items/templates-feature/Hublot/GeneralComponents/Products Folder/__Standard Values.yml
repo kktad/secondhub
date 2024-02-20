@@ -1,0 +1,33 @@
+﻿---
+ID: "b73d41ac-7647-4421-9bab-3c36a58f4e1c"
+Parent: "b871e7de-b813-454f-8035-d14c54918fec"
+Template: "b871e7de-b813-454f-8035-d14c54918fec"
+Path: /sitecore/templates/Feature/Hublot/GeneralComponents/Products Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A72DC800-2816-4DEA-8D79-86F29A922D78}
+    {B871E7DE-B813-454F-8035-D14C54918FEC}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfdc51f6-95d3-44bd-a812-8a2ede49d850"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240220T094535Z

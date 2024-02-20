@@ -1,0 +1,46 @@
+﻿---
+ID: "133a9404-802d-4e90-95e1-58bdf2ee1e1b"
+Parent: "0050ee45-3ac5-402c-82a7-d0dcd8f41e46"
+Template: "6ddde2d1-4422-4629-b3c5-3541a472665b"
+Path: /sitecore/content/HeadlessTenant/Hublot/Data/Hero/Home Hero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "11407775-881e-47af-be96-25080ec4e9f3"
+      Hint: HeroImage
+      Value: |
+        <image mediaid="{13866859-41BC-4077-A023-B677D8E09FEB}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240219T150029Z
+    - ID: "47b02bdd-dcd7-49d9-aefd-280b8a3c4748"
+      Hint: HeroText
+      Value: |
+        <h1>BIG BANG</h1>
+        <p>E UEFA EURO</p>
+        <p>2020 ™</p>
+        <p>BUY NOW-ONLINE EXCLUSIVE</p>
+        <span></span>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "edcf5e2b-751a-4b4e-9a2f-827cc94ba01d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240220T141413Z

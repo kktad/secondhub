@@ -9,6 +9,7 @@ SharedFields:
   Value: |
     {208FD3DB-08B3-4BCA-A8AD-77E84DE60050}
     {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+    {2CCE8D7F-0445-409F-A6BF-70E434E44B82}
 Languages:
 - Language: en
   Versions:
@@ -27,14 +28,14 @@ Languages:
         sitecore\darvi.sunny@tadigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "25730c0c-189c-4023-9bef-ba00694a5495"
+      Value: "2b186060-6e97-49dc-8580-b2ca8eb68261"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240201T050340Z
+      Value: 20240220T125548Z
     - ID: "f0694dd8-d797-489a-b99b-c08d4b1958d9"
       Hint: Title
       Value: $name
