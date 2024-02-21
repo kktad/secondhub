@@ -2,7 +2,7 @@ import { ImageField, Field, Image, withDatasourceCheck } from '@sitecore-jss/sit
 import { ComponentProps } from 'lib/component-props';
 
 type Product = {
-  url: string,
+  url: string;
   fields: {
     Model: Field<string>;
     Title: Field<string>;

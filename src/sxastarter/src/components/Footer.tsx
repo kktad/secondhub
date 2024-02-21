@@ -2,8 +2,8 @@ import { ImageField, withDatasourceCheck, Image } from '@sitecore-jss/sitecore-j
 import { ComponentProps } from 'lib/component-props';
 
 type FooterItem = {
-  link: string,
-  text: string
+  link: string;
+  text: string;
 };
 
 type FooterProps = ComponentProps & {
@@ -11,22 +11,18 @@ type FooterProps = ComponentProps & {
   fields: Fields;
 };
 
-
 interface Fields {
   items: FooterItem[];
 }
 
 const FooterLink = (props: FooterItem) => {
-  return (
-    <a href={`${props.link}`}>{props.text}</a>
-  );
+  return <a href={`${props.link}`}>{props.text}</a>;
 };
 
 const Footer = (props: FooterProps): JSX.Element => {
-  const list = props.fields.items
-    .map((element: FooterItem, key: number) => (
-      <FooterLink key={`${key}${element.link}`} link={element.link} text={element.text} />
-    ));
+  const list = props.fields.items.map((element: FooterItem, key: number) => (
+    <FooterLink key={`${key}${element.link}`} link={element.link} text={element.text} />
+  ));
 
   return (
     <div className="footer">
@@ -39,9 +35,7 @@ const Footer = (props: FooterProps): JSX.Element => {
         <Image field={props.params.FooterImage} />
       </div>
       <div className="footernav">
-        <nav>
-          {list}
-        </nav>
+        <nav>{list}</nav>
         <nav>
           <a href="">
             <i className="fa fa-facebook"></i>

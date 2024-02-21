@@ -13,7 +13,7 @@ type HeroProps = ComponentProps & {
     HeroText: RichTextField;
   };
 };
-const Hero = ({fields}: HeroProps): JSX.Element => { 
+const Hero = ({ fields }: HeroProps): JSX.Element => {
   return (
     <div className="hero">
       <div className="heroImg">
@@ -31,6 +31,6 @@ const Hero = ({fields}: HeroProps): JSX.Element => {
         <button>FIND YOUR STRAP</button>
       </div>
     </div>
-  )
+  );
 };
 export default withDatasourceCheck()<HeroProps>(Hero);

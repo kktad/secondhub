@@ -1,10 +1,10 @@
 import { Field, Image, ImageField, useSitecoreContext } from '@sitecore-jss/sitecore-jss-nextjs';
 
-function Product(): JSX.Element {  
+function Product(): JSX.Element {
   const { sitecoreContext } = useSitecoreContext();
-  const title = (sitecoreContext?.route?.fields?.Title) as Field<string>;
-  const price = (sitecoreContext?.route?.fields?.Price) as Field<string>;
-  const image = (sitecoreContext?.route?.fields?.Image) as ImageField;
+  const title = sitecoreContext?.route?.fields?.Title as Field<string>;
+  const price = sitecoreContext?.route?.fields?.Price as Field<string>;
+  const image = sitecoreContext?.route?.fields?.Image as ImageField;
 
   return (
     <div className="productData">

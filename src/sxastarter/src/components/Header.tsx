@@ -1,20 +1,19 @@
 import {
-  LinkField,  
+  LinkField,
   withDatasourceCheck,
   Field,
-  Image,
-  ImageField 
-
+  //Image,
+  //ImageField,
 } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 type NavigationLink = {
   link: {
-    field: LinkField
-  }
+    field: LinkField;
+  };
   text: {
     field: Field<string>;
-  }
+  };
 };
 
 interface Fields {
@@ -38,31 +37,29 @@ type LinkListItemProps = {
 };
 
 const LinkListItem = (props: LinkListItemProps) => {
-  return (
-    <a href={`${props.link.value.href}`}>{props.text.value}</a>
-  );
+  return <a href={`${props.link.value.href}`}>{props.text.value}</a>;
 };
 
 const Header = (props: HeaderProps): JSX.Element => {
   const datasource = props.fields?.data?.datasource;
-  const headerimage=props.params.HeaderImage
+  const headerimage = props.params.HeaderImage;
 
   console.log(headerimage);
 
   if (datasource) {
-    const list = datasource.children.results
-      .map((element: NavigationLink, key: number) => (
-        <LinkListItem key={`${key}${element.link.field}`} link={element.link.field} text={element.text.field} />
-      ));
+    const list = datasource.children.results.map((element: NavigationLink, key: number) => (
+      <LinkListItem
+        key={`${key}${element.link.field}`}
+        link={element.link.field}
+        text={element.text.field}
+      />
+    ));
     return (
       <div>
         <div className="header">
-          <div className="headerimg">
-          </div>
+          <div className="headerimg"></div>
           <div className="headernav">
-            <nav>
-              {list}
-            </nav>
+            <nav>{list}</nav>
           </div>
         </div>
       </div>
