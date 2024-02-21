@@ -75,7 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContentResolvers\FooterRenderingContentsResolver.cs" />
-    <Compile Include="SitecoreFieldHelpers\GeneralLink.cs" />
+    <Compile Include="SitecoreFieldHelpers\LinkExtensions.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

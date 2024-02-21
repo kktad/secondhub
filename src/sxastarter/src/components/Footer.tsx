@@ -1,4 +1,4 @@
-import { ImageField, withDatasourceCheck, Image } from '@sitecore-jss/sitecore-jss-nextjs';
+import { withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 
 type FooterItem = {
@@ -6,13 +6,15 @@ type FooterItem = {
   text: string;
 };
 
-type FooterProps = ComponentProps & {
-  params: { FooterImage: ImageField };
+type FooterProps = ComponentProps & {  
   fields: Fields;
 };
 
 interface Fields {
-  items: FooterItem[];
+  footerimage: {
+    url: string
+  },
+  items: FooterItem[]
 }
 
 const FooterLink = (props: FooterItem) => {
@@ -23,7 +25,6 @@ const Footer = (props: FooterProps): JSX.Element => {
   const list = props.fields.items.map((element: FooterItem, key: number) => (
     <FooterLink key={`${key}${element.link}`} link={element.link} text={element.text} />
   ));
-
   return (
     <div className="footer">
       <div className="newsletter">
@@ -32,7 +33,7 @@ const Footer = (props: FooterProps): JSX.Element => {
         <a className="open-button">Sign Up</a>
       </div>
       <div className="footerlogo">
-        <Image field={props.params.FooterImage} />
+        <img src={props.fields.footerimage.url}></img>
       </div>
       <div className="footernav">
         <nav>{list}</nav>

@@ -1,11 +1,13 @@
 ﻿using Sitecore.Data.Fields;
 using Sitecore.LayoutService.Helpers;
 using Sitecore.Links;
+using Sitecore.Resources.Media;
 using System;
+using System.Security.Policy;
 
 namespace XmCloudSXAStarter.SitecoreFieldHelpers
 {
-    public static class GeneralLink
+    public static class LinkExtensions
     {
         public static string GetUrl(LinkField linkField, Object owner, string itemPath)
         {
@@ -37,5 +39,11 @@ namespace XmCloudSXAStarter.SitecoreFieldHelpers
 
             return url;
         }
+        public static string GetImageUrl(this ImageField imageField)
+        {
+            string url = MediaManager.GetMediaUrl(imageField.MediaItem);
+            return url;
+        }
+
     }
 }

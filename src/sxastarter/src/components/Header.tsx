@@ -19,6 +19,13 @@ type NavigationLink = {
 interface Fields {
   data: {
     datasource: {
+      headerimage: {
+        field: {
+          value: {
+            src: string
+          }
+        }
+      },
       children: {
         results: NavigationLink[];
       };
@@ -42,9 +49,6 @@ const LinkListItem = (props: LinkListItemProps) => {
 
 const Header = (props: HeaderProps): JSX.Element => {
   const datasource = props.fields?.data?.datasource;
-  const headerimage = props.params.HeaderImage;
-
-  console.log(headerimage);
 
   if (datasource) {
     const list = datasource.children.results.map((element: NavigationLink, key: number) => (
@@ -54,10 +58,13 @@ const Header = (props: HeaderProps): JSX.Element => {
         text={element.text.field}
       />
     ));
+    const headerImage = datasource.headerimage.field.value.src
     return (
       <div>
         <div className="header">
-          <div className="headerimg"></div>
+          <div className="headerimg">
+            <img src={headerImage?.replace("http://cm/","")}></img>
+          </div>
           <div className="headernav">
             <nav>{list}</nav>
           </div>

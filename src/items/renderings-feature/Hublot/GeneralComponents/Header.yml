@@ -15,6 +15,10 @@ SharedFields:
   Value: |
     query DataSourceQuery($datasource: String!, $language: String!) {
       datasource: item(path: $datasource, language: $language) {
+        headerimage: field(name: "HeaderImage")
+        {
+          field: jsonValue
+        },
         children {
           results {
             link: field(name: "Link") {
@@ -93,14 +97,14 @@ Languages:
         sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "5a0eb971-9ad8-4b64-9fa4-d0c134571fbb"
+      Value: "9f7e718d-f749-42b6-bd0f-29355701a409"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240215T134447Z
+      Value: 20240221T132928Z
 - Language: "ja-JP"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

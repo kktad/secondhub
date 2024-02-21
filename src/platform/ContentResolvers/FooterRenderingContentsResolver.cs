@@ -39,12 +39,17 @@ namespace XmCloudSXAStarter.ContentResolvers
                 return (object)this.ProcessItem(contextItem, rendering, renderingConfig);
             JObject jobject = new JObject()
             {
+                ["footerimage"] = new JObject(),
                 ["items"] = (JToken)new JArray()
             };
             IEnumerable<Item> items = this.GetItems(contextItem);
             List<Item> list = items != null ? items.ToList<Item>() : (List<Item>)null;
             if (list == null || list.Count == 0)
                 return (object)jobject;
+            jobject["footerimage"] = new JObject()
+            {
+                ["url"] = LinkExtensions.GetImageUrl(contextItem.Fields["FooterImage"])
+            };
             jobject["items"] = (JToken)this.ProcessItems((IEnumerable<Item>)list, rendering, renderingConfig);
             return (object)jobject;
         }
@@ -82,7 +87,7 @@ namespace XmCloudSXAStarter.ContentResolvers
                 JObject jobject1 = this.ProcessItem(obj, rendering, renderingConfig);
                 JObject jobject2 = new JObject()
                 {
-                    ["link"] = GeneralLink.GetUrl(obj.Fields["Link"], "FooterRenderingContentsResolver", obj.Paths.FullPath),
+                    ["link"] = LinkExtensions.GetUrl(obj.Fields["Link"], "FooterRenderingContentsResolver", obj.Paths.FullPath),
                     ["text"] = obj.Fields["Text"].Value
                 };
                 jarray.Add((JToken)jobject2);

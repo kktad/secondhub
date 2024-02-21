@@ -8,16 +8,20 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "22a59535-98fa-4d62-beb7-0179ced8a8fa"
+      Hint: HeaderImage
+      Value: |
+        <image mediaid="{26C41FCC-963D-4CF5-BE8A-12AC1957B0D5}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240212T145201Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "cfe5f638-7cde-4197-a808-9a872d31db1a"
+      Value: "278b79fc-1030-4784-85c2-0f57f606db7d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240212T145201Z
+      Value: 20240221T132031Z

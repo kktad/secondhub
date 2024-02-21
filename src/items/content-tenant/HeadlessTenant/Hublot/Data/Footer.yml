@@ -11,13 +11,17 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20240216T090612Z
+    - ID: "64c0f1b6-d3fe-4a1d-b543-d9a3bf2dca5b"
+      Hint: FooterImage
+      Value: |
+        <image mediaid="{7707C724-483F-4592-9B1E-25279C4B734B}" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "16674d51-a531-4ce7-8234-244867dc989f"
+      Value: "5cf3a7b3-2ff5-4476-ad8f-bac42608e2db"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240216T090620Z
+      Value: 20240221T134716Z
