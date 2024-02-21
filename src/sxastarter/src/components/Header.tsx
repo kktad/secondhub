@@ -22,10 +22,10 @@ interface Fields {
       headerimage: {
         field: {
           value: {
-            src: string
-          }
-        }
-      },
+            src: string;
+          };
+        };
+      };
       children: {
         results: NavigationLink[];
       };
@@ -58,12 +58,12 @@ const Header = (props: HeaderProps): JSX.Element => {
         text={element.text.field}
       />
     ));
-    const headerImage = datasource.headerimage.field.value.src
+    const headerImage = datasource.headerimage.field.value.src;
     return (
       <div>
         <div className="header">
           <div className="headerimg">
-            <img src={headerImage?.replace("http://cm/","")}></img>
+            <img alt="" src={headerImage?.replace('http://cm/', '')}></img>
           </div>
           <div className="headernav">
             <nav>{list}</nav>

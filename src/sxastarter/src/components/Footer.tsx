@@ -6,15 +6,15 @@ type FooterItem = {
   text: string;
 };
 
-type FooterProps = ComponentProps & {  
+type FooterProps = ComponentProps & {
   fields: Fields;
 };
 
 interface Fields {
   footerimage: {
-    url: string
-  },
-  items: FooterItem[]
+    url: string;
+  };
+  items: FooterItem[];
 }
 
 const FooterLink = (props: FooterItem) => {
@@ -33,7 +33,7 @@ const Footer = (props: FooterProps): JSX.Element => {
         <a className="open-button">Sign Up</a>
       </div>
       <div className="footerlogo">
-        <img src={props.fields.footerimage.url}></img>
+        <img alt="" src={props.fields.footerimage.url}></img>
       </div>
       <div className="footernav">
         <nav>{list}</nav>
