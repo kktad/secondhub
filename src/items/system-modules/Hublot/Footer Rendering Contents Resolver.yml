@@ -1,0 +1,38 @@
+﻿---
+ID: "438baedf-ed85-465b-bc10-c83361a6a690"
+Parent: "1c396142-a6d0-412a-a313-963a1c4f3120"
+Template: "814c1dbb-b118-4511-ba2b-7288ed3d490b"
+Path: /sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Hublot/Footer Rendering Contents Resolver
+SharedFields:
+- ID: "23b859e1-34f9-4711-a46a-dc0d616584ce"
+  Hint: ItemSelectorQuery
+  Value: ./*
+- ID: "de218ede-a9ad-4b04-86c5-9ff593ccf39d"
+  Hint: Type
+  Value: XmCloudSXAStarter.ContentResolvers.FooterRenderingContentsResolver, XmCloudSXAStarter
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240215T151610Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7d83994-3ef7-429d-be69-a752a8f4f7ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240216T061522Z
