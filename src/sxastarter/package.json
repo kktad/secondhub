@@ -88,6 +88,7 @@
     "install-pre-push-hook": "ts-node --project tsconfig.scripts.json ./scripts/install-pre-push-hook.ts",
     "jss": "jss",
     "lint": "eslint ./src/**/*.tsx ./src/**/*.ts ./scripts/**/*.ts",
+    "lint-fix": "eslint ./src/**/*.tsx ./src/**/*.ts ./scripts/**/*.ts --fix",
     "next:build": "next build",
     "next:dev": "cross-env NODE_OPTIONS='--inspect' next dev",
     "next:start": "next start",

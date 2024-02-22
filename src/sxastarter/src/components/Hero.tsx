@@ -1,9 +1,4 @@
-import {
-  RichText,
-  Image,
-  ImageField,
-  RichTextField,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { RichText, Image, ImageField, RichTextField } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import React from 'react';
 type HeroProps = ComponentProps & {
@@ -50,7 +45,7 @@ export const CTAOnTop = (props: HeroProps): JSX.Element => {
         tag="section"
         className="herotext"
         data-sample="other-attributes-pass-through"
-      />      
+      />
     </div>
   );
 };
