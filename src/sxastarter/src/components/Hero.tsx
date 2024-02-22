@@ -1,6 +1,5 @@
 import {
   RichText,
-  withDatasourceCheck,
   Image,
   ImageField,
   RichTextField,
@@ -13,14 +12,15 @@ type HeroProps = ComponentProps & {
     HeroText: RichTextField;
   };
 };
-const Hero = ({ fields }: HeroProps): JSX.Element => {
+
+export const Default = (props: HeroProps): JSX.Element => {
   return (
     <div className="hero">
       <div className="heroImg">
-        <Image field={fields.HeroImage} />
+        <Image field={props.fields.HeroImage} />
       </div>
       <RichText
-        field={fields.HeroText}
+        field={props.fields.HeroText}
         tag="section"
         className="herotext"
         data-sample="other-attributes-pass-through"
@@ -33,4 +33,24 @@ const Hero = ({ fields }: HeroProps): JSX.Element => {
     </div>
   );
 };
-export default withDatasourceCheck()<HeroProps>(Hero);
+
+export const CTAOnTop = (props: HeroProps): JSX.Element => {
+  return (
+    <div className="hero">
+      <div className="heroCTA">
+        <button>FIND YOUR WATCH</button>
+        <button>FIND A BOUTIQUE</button>
+        <button>FIND YOUR STRAP</button>
+      </div>
+      <div className="heroImg">
+        <Image field={props.fields.HeroImage} />
+      </div>
+      <RichText
+        field={props.fields.HeroText}
+        tag="section"
+        className="herotext"
+        data-sample="other-attributes-pass-through"
+      />      
+    </div>
+  );
+};

@@ -20,7 +20,7 @@ function Products(props: ProductsProps): JSX.Element {
   return (
     <div className="allproducts">
       {props.fields.ProductsList.map((listitem, index) => (
-        <a key={null} href={`${listitem.url}`}>
+        <a key={listitem.fields.Title.value +index} href={`${listitem.url}`}>
           <article key={index} className="product">
             <div className="productimage">
               <Image field={listitem.fields.Image} />
