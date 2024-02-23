@@ -63,7 +63,9 @@ const Header = (props: HeaderProps): JSX.Element => {
       <div>
         <div className="header">
           <div className="headerimg">
-            <img alt="" src={headerImage?.replace('http://cm/', '')}></img>
+            <a href="/">
+              <img alt="" src={headerImage?.replace('http://cm/', '')}></img>
+            </a>
           </div>
           <div className="headernav">
             <nav>{list}</nav>

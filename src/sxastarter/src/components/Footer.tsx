@@ -25,6 +25,7 @@ const Footer = (props: FooterProps): JSX.Element => {
   const list = props.fields.items.map((element: FooterItem, key: number) => (
     <FooterLink key={`${key}${element.link}`} link={element.link} text={element.text} />
   ));
+  const footerLogo = props.fields.footerimage.url;
   return (
     <div className="footer">
       <div className="newsletter">
@@ -33,7 +34,13 @@ const Footer = (props: FooterProps): JSX.Element => {
         <a className="open-button">Sign Up</a>
       </div>
       <div className="footerlogo">
-        <img alt="" src={props.fields.footerimage.url}></img>
+        <img
+          alt=""
+          src={footerLogo?.replace(
+            '/Project',
+            'https://edge.sitecorecloud.io/techaspects6f0c-hublot-dev-d8ea/media/Project'
+          )}
+        ></img>
       </div>
       <div className="footernav">
         <nav>{list}</nav>
