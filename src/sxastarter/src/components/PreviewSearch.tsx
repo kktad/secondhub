@@ -1,7 +1,6 @@
-import { Text, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 import { ComponentProps } from 'lib/component-props';
 import PreviewSearchComponent from 'src/search/PreviewSearchComponent';
-
 
 type PreviewSearchProps = ComponentProps & {
   fields: {
@@ -9,10 +8,9 @@ type PreviewSearchProps = ComponentProps & {
   };
 };
 
-const PreviewSearch = (props: PreviewSearchProps): JSX.Element => (
-  
-  <div>   
-    <PreviewSearchComponent/>
+const PreviewSearch = (): JSX.Element => (
+  <div>
+    <PreviewSearchComponent />
   </div>
 );
 
