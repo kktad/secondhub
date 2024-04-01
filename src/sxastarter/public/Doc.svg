@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="570px" height="321px" viewBox="0 0 570 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Doc</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" width="65" height="63" x="-105" y="86" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2"></use>
+        </pattern>
+        <image id="image-2" width="65" height="63" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA/CAYAAAC/36X0AAAABGdBTUEAALGN5fIAKQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAQaADAAQAAAABAAAAPwAAAACZvdzXAAAA10lEQVR4Ae3VTQrCMBAG0EYExWuk9z9RD+HKn40xrSmUkmwF4ysE0m9W89JMh6HxpJTCvBrlruJjq5txHF+l1j3EoYXwTzmEfNoQMsJy3/P9P+0//zwUH3MWQjjva9M0PffZL78vg3FtuNZIo9bVsFz/DvcCkDYQl7K/bbKumt/0Vd/GGNO86tW+UoMxnycECJ9rvQ7G2iW/1kIZAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQLfEngD2bIeJ4d3nzwAAAAASUVORK5CYII="></image>
+    </defs>
+    <g id="Doc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill-opacity="0.25" fill="url(#pattern-1)" x="-40" y="149" width="468" height="325"></rect>
+        <rect id="Rectangle" fill="#FFFFFF" x="231" y="124" width="108" height="108"></rect>
+        <g id="Group-15" transform="translate(231.000000, 92.000000)">
+            <g id="Group-9">
+                <polygon id="Rectangle" fill="#FFFFFF" points="74.7305702 0.258581197 106.60994 33.4078291 66.5248227 42.6950355"></polygon>
+                <polygon id="Stroke-1" stroke="#1CA5A2" stroke-width="2" fill="#FFFFFF" points="106.60994 125.708513 13.4187915 125.708513 13.4187915 0.603555556 74.4158979 0.603555556 74.4730894 33.4078291 106.60994 33.4078291"></polygon>
+                <line x1="74.7305702" y1="0.258581197" x2="106.900783" y2="33.0066154" id="Stroke-3" stroke="#1CA5A2" stroke-width="2"></line>
+                <polyline id="Stroke-5" stroke="#1CA5A2" stroke-width="2" points="13.2211234 125.698581 1.19065532 137.932427 1.19065532 16.5572137 13.2211234 0.0862735043"></polyline>
+                <polyline id="Stroke-7" stroke="#1CA5A2" stroke-width="2" points="0.000714893617 139.999761 93.8602894 139.999761 106.978587 126.15412"></polyline>
+            </g>
+            <line x1="24.822695" y1="30.2836879" x2="63.5460993" y2="30.2836879" id="Stroke-10" stroke="#010202" stroke-width="2"></line>
+            <line x1="24.822695" y1="49.1489362" x2="74.4680851" y2="49.1489362" id="Stroke-11" stroke="#010202" stroke-width="2"></line>
+            <line x1="24.822695" y1="67.0212766" x2="90.3546099" y2="67.0212766" id="Stroke-12" stroke="#010202" stroke-width="2"></line>
+            <line x1="24.822695" y1="83.9007092" x2="90.3546099" y2="83.9007092" id="Stroke-13" stroke="#010202" stroke-width="2"></line>
+            <line x1="24.822695" y1="101.77305" x2="90.3546099" y2="101.77305" id="Stroke-14" stroke="#010202" stroke-width="2"></line>
+        </g>
+    </g>
+</svg>

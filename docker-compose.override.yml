@@ -27,6 +27,12 @@ services:
       JSS_EDITING_SECRET: ${JSS_EDITING_SECRET}
       SITECORE_API_KEY: "${SITECORE_API_KEY_xmcloudpreview}"
       DISABLE_SSG_FETCH: ${DISABLE_SSG_FETCH}
+      NEXT_PUBLIC_DISCOVER_API: "https://discover.sitecorecloud.io/discover/v2/217796883"
+      NEXT_PUBLIC_EVENT_API: "https://discover.sitecorecloud.io/event/166363959-217796883/v4/publish"
+      NEXT_PUBLIC_ACCESS_TOKEN_API: "https://api.rfksrv.com/account/1/access-token"
+      NEXT_PUBLIC_bearer_token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhcGlLZXkvMWYxMThkMTAiLCJzY29wZSI6eyIxNDk3ODM3MjgiOlsiamx4Z2hpejY4ayIsInc2Z3Q0NDh4dWciXX0sInN0YWdlIjoicHJvZCIsInJlZ2lvbiI6InVzLWVhc3QtMSIsImp0aSI6Ijg0OGQwZjFjLTZmNjgtNGVlNy1iMDc0LTIzZDdjN2YxNjk4ZiIsImlhdCI6MTcwOTE0NTczMiwiZXhwIjoxNzA5MjMyNzMyfQ.ToaxKTe14mBM4LccYz13Pd_FmbYzZiaUR7lWpO2HQuk"
+      NEXT_PUBLIC_PREVIEW_RECORD_LIMITS: 6
+      NEXT_PUBLIC_SEARCH_RESULTS_RECORD_LIMITS: 10
     depends_on:
       - cm
       - nodejs
