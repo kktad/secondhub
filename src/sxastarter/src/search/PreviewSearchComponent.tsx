@@ -8,7 +8,6 @@ import { eventTrackAPI, discoverAPI } from './Api/api';
 import { useRouter, useSearchParams } from 'next/navigation'
 import { v4 as uuidv4 } from 'uuid';
 
-
 const PreviewSearchComponent = () => {
     const router = useRouter()
     const [data, setData] = useState<SitecoreResponseContent[]>();
@@ -97,7 +96,7 @@ const PreviewSearchComponent = () => {
                             return <li key={i}>
                                 <Link href={result.url}>
                                     <div>
-                                        <Image src={result.img ? result.img : "/Doc.svg"} alt={result.name} height={120}
+                                        <Image src={result.img !=null && result.img !="https://www.robinsonfresh.com" ? result.img : "/Doc.svg"} alt={result.name} height={120}
                                             width={120}></Image>
                                     </div>
                                     <h6>{result.name.substring(0, 80)}</h6>

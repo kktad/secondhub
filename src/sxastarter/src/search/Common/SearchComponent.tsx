@@ -11,7 +11,7 @@ const SearchComponent: React.FC<ChildProps> = ({ data }) => {
     {
       data?.map((result, i) => {
         return <div key={i} className='list-results search-results'>
-          <div className='section-left'><Image src={result.img ? result.img : "/Doc.svg"} alt={result.name} height={120}
+          <div className='section-left'><Image src={result.img !=null && result.img !="https://www.robinsonfresh.com" ? result.img : "/Doc.svg"} alt={result.name} height={120}
             width={120}></Image></div>
           <div className='section-right'>
             <h6><Link href={result.url}>{result.name}</Link></h6>
