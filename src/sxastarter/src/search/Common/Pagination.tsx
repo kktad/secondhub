@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-import Image from 'next/image'
-import Link from 'next/link';
+import Image from 'next/image';
 
 interface ChildProps {
   totalCount: number;
-  onDataFromPagination: (selectedValue: Number) => void;
-  onDataFromPageClick: (offset: Number) => void;
+  onDataFromPagination: (selectedValue: number) => void;
+  onDataFromPageClick: (offset: number) => void;
 }
-const Pagination: React.FC<ChildProps> = ({ totalCount, onDataFromPagination, onDataFromPageClick }) => {
-
+const Pagination: React.FC<ChildProps> = ({
+  totalCount,
+  onDataFromPagination,
+  onDataFromPageClick,
+}) => {
   const options = [
     { value: 10, label: '10' },
     { value: 20, label: '20' },
@@ -20,20 +22,19 @@ const Pagination: React.FC<ChildProps> = ({ totalCount, onDataFromPagination, on
   const [selectedValue, setSelectedValue] = useState('10');
   const handleDropdownChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     setSelectedValue(event.target.value);
-    onDataFromPagination(Number(event.target.value))
+    onDataFromPagination(Number(event.target.value));
   };
-  const recordPerPage: number = Number(selectedValue)
-  const totalRecords: number = totalCount
-  const totalPages: number = totalRecords / recordPerPage
+  const recordPerPage = Number(selectedValue);
+  const totalRecords: number = totalCount;
+  const totalPages: number = totalRecords / recordPerPage;
 
   const handleClick = (currentPage: number) => {
     const updatedStyle: boolean[] = [false, false, false];
     updatedStyle[currentPage] = true;
-    setbuttonStyle(updatedStyle)
+    setbuttonStyle(updatedStyle);
 
-
-    onDataFromPageClick(currentPage)
-  }
+    onDataFromPageClick(currentPage);
+  };
   return (
     <div className="pagination">
       <div className="resultPerPage">
@@ -47,27 +48,34 @@ const Pagination: React.FC<ChildProps> = ({ totalCount, onDataFromPagination, on
         </select>
       </div>
       <div className="totalPages">
-
-        <Image src="/left.svg" alt="Prev" height={20}
-          width={20}></Image>
+        <Image src="/left.svg" alt="Prev" height={20} width={20}></Image>
 
         {Array.from({ length: totalPages }, (_, index) => {
           const itemCount = index + 1;
-          return (<>
-            {
-              itemCount <= 5 || itemCount > totalPages - 1 ?
-                <button key={itemCount} onClick={() => handleClick(itemCount)} style={{ backgroundColor: (buttonStyle[itemCount] ? '#aaa' : '#f3f3f3') }}>
+          return (
+            <>
+              {itemCount <= 5 || itemCount > totalPages - 1 ? (
+                <button
+                  key={itemCount}
+                  onClick={() => handleClick(itemCount)}
+                  style={{ backgroundColor: buttonStyle[itemCount] ? '#aaa' : '#f3f3f3' }}
+                >
                   {itemCount}
-                </button> : ""
-            }
-          </>);
+                </button>
+              ) : (
+                ''
+              )}
+            </>
+          );
         })}
 
-        <a onClick={(e) => handleClick(e)}> <Image src="/right.svg" alt="Next" height={20}
-          width={20}></Image></a>
+        <a onClick={() => handleClick(2)}>
+          {' '}
+          <Image src="/right.svg" alt="Next" height={20} width={20}></Image>
+        </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Pagination
+export default Pagination;

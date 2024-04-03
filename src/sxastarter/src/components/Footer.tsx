@@ -22,7 +22,7 @@ const FooterLink = (props: FooterItem) => {
 };
 
 const Footer = (props: FooterProps): JSX.Element => {
-  console.log(props.fields)
+  console.log(props.fields);
   const list = props.fields.items.map((element: FooterItem, key: number) => (
     <FooterLink key={`${key}${element.link}`} link={element.link} text={element.text} />
   ));
