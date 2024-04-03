@@ -54,19 +54,19 @@ const SearchResultsComponent: React.FC<MyComponentProps> = ({ keyword }) => {
 
   const getSearchResults = async () => {
     const payload = RequestPayload();
-    payload.widget.items[0].search.limit = recordPerPage;
-    payload.widget.items[0].search.offset = offset;
+    payload.widget.items[0].search.limit = recordPerPage as any;
+    payload.widget.items[0].search.offset = offset as any;
     payload.widget.items[0].rfk_id = 'rfkid_7';
     payload.widget.items[0].search.facet.all = true;
     if (keyword != '') {
-      payload.widget.items[0].search.query.keyphrase = keyword;
+      payload.widget.items[0].search.query.keyphrase = keyword as any;
     }
 
     if (filterPayload != null && filterPayload.length != 0) {
-      payload.widget.items[0].search.facet.types = filterPayload ?? undefined;
+      payload.widget.items[0].search.facet.types = (filterPayload as any) ?? undefined;
     }
-    if (selectedSort != '') {
-      payload.widget.items[0].search.sort.value = selectedSort;
+    if (selectedSort.toString() != '') {
+      payload.widget.items[0].search.sort.value = selectedSort as any;
     }
 
     try {
