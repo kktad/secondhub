@@ -40,7 +40,7 @@ const PreviewSearchComponent = () => {
   const handleKeyDown = async (event: any) => {
     if (event.key === 'Enter') {
       await setEventTrackAPIData('click');
-      router.push('/searchresults?q=' + event.target.value);
+      router.push('/search?q=' + event.target.value);
     }
   };
 
