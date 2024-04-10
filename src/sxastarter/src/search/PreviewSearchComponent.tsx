@@ -122,7 +122,7 @@ const PreviewSearchComponent = () => {
                         alt={result.name}
                       ></Image>
                     </div>
-                    <h8>{result.name.substring(0, 80)}</h8>
+                    <h6>{result.name.substring(0, 80)}</h6>
                   </Link>
                 </li>
               );
