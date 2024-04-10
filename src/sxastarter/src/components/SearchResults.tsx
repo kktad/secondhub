@@ -16,7 +16,7 @@ const SearchResults = () => {
   return (
     <div className="results-container">
       {/* <h3><Text field={props.fields.heading} /></h3>  */}
-      <div>
+      <div className="summarytxt">
         Showing results for <strong>{keyword} </strong>
       </div>
       <div className="search-results">

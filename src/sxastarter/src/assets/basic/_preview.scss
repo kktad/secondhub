@@ -7,8 +7,18 @@
    /* Preview Search CSS */
    .previewContainer {
      width: 1200px;
-     /* margin: auto; */
+     margin-left: 5px;
      z-index: 10;
+   }
+
+   .search-results .section-left img {
+     color: transparent;
+     display: block;
+     width: 95%;
+     max-width: 95%;
+     height: 95%;
+     max-height: 95%;
+     margin-left: 5px;
    }
    .popup {
      display: flex;
@@ -25,12 +35,12 @@
      background-color: #ccc;
    }
    .suggestions h4{
-    text-align: center;
-    padding-top: 5px;
+     text-align: center;
+     padding-top: 5px;
    }
    .suggestions li{
-    margin: 5px;
-    overflow-wrap: anywhere;
+     margin: 5px;
+     overflow-wrap: anywhere;
    }
    .suggestions li:hover{
     /* padding-left: 5px; */
@@ -72,10 +82,18 @@
    /* Search Results CSS */
    .results-container{
     padding-top: 20px;
+    margin: 0 5px 0 5px;
    }
    .search-results{
     display: flex;
     padding-top: 20px;
+   }
+   .summarytxt{
+    margin-left: 5px;
+   }
+   .sortingsection
+   {
+    margin-right: 5px;
    }
    .section-left{
     width:25%;

@@ -20,8 +20,6 @@ const SearchComponent: React.FC<ChildProps> = ({ data }) => {
                     : '/Doc.svg'
                 }
                 alt={result.name}
-                height={120}
-                width={120}
               ></Image>
             </div>
             <div className="section-right">

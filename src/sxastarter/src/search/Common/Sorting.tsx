@@ -23,7 +23,7 @@ const Sorting: React.FC<ChildProps> = ({ sort, onDataFromSort }) => {
     onDataFromSort(sortPayload);
   }, [selectedSortValue, sortPayload]);
   return (
-    <div>
+    <div className="sortingsection">
       <select value={selectedSortValue} onChange={handleDropdownChange}>
         {sort.map((option) => (
           <option key={option.name} value={option.name}>
