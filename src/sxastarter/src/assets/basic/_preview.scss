@@ -11,7 +11,7 @@
      z-index: 10;
    }
 
-   .search-results .section-left img {
+   .search-results .section-left img.searchimg {
      color: transparent;
      display: block;
      width: 95%;
@@ -86,7 +86,7 @@
    }
    .search-results{
     display: flex;
-    padding-top: 20px;
+    padding-top: 10px;
    }
    .summarytxt{
     margin-left: 5px;

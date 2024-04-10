@@ -19,6 +19,7 @@ const SearchComponent: React.FC<ChildProps> = ({ data }) => {
                     ? result.img
                     : '/Doc.svg'
                 }
+                className="searchimg"
                 alt={result.name}
               ></Image>
             </div>
