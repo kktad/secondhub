@@ -92,7 +92,7 @@ const PreviewSearchComponent = () => {
       {isInsideClick && (
         <div className="popup">
           <div className="suggestions">
-            <h4>Suggestions</h4>
+            <h5>Suggestions</h5>
             <ul>
               {suggestions?.map((suggesion, i) => {
                 return (
@@ -120,11 +120,9 @@ const PreviewSearchComponent = () => {
                             : '/Doc.svg'
                         }
                         alt={result.name}
-                        height={120}
-                        width={120}
                       ></Image>
                     </div>
-                    <h6>{result.name.substring(0, 80)}</h6>
+                    <h8>{result.name.substring(0, 80)}</h8>
                   </Link>
                 </li>
               );
