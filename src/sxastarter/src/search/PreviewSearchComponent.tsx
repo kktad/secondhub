@@ -97,7 +97,7 @@ const PreviewSearchComponent = () => {
               {suggestions?.map((suggesion, i) => {
                 return (
                   <>
-                    <Link href={{ pathname: '/searchresults', query: { q: suggesion.text } }}>
+                    <Link href={{ pathname: '/search', query: { q: suggesion.text } }}>
                       <li key={i} onMouseEnter={() => handleMouseHover(suggesion.text)}>
                         {suggesion.text}
                       </li>
