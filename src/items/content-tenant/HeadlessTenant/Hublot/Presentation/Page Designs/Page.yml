@@ -6,11 +6,11 @@ Path: /sitecore/content/HeadlessTenant/Hublot/Presentation/Page Designs/Page
 SharedFields:
 - ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
   Hint: PartialDesigns
-  Value: "{8F83DB15-AFDA-4FB2-AFC3-648138CEA893}|{07A03B74-C762-46BA-8251-A1F7952032E2}"
+  Value: "{8F83DB15-AFDA-4FB2-AFC3-648138CEA893}"
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{80D23A91-7420-40D4-B3B2-FDB78301B153}" />
+    <image mediaid="{58387FFA-BCF0-492E-96B1-8434E9BBC28E}" />
 Languages:
 - Language: en
   Versions:
@@ -29,11 +29,11 @@ Languages:
         sitecore\darvi.sunny@tadigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1d6bdad9-fded-4603-bffd-755a3ca9cfc4"
+      Value: "733fe3a1-3f4f-4727-ad5c-12ad760c7ab9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240216T091316Z
+      Value: 20240429T071510Z
