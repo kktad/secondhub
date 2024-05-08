@@ -1,16 +1,16 @@
 ﻿---
-ID: "db8a7eb2-cfde-4a6f-9ed6-2a30c93b78fc"
-Parent: "206ef7bf-b1c1-41d7-a4e4-d524e6cf487e"
-Template: "1105b8f8-1e00-426b-bf1f-c840742d827b"
-Path: /sitecore/content/HeadlessTenant/Hublot/Presentation/Page Designs/Page
+ID: "77fe1b39-5a1d-4742-975d-ee68f8743e90"
+Parent: "653504a4-f971-413f-a182-343a173e1bad"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/content/HeadlessTenant/Hublot/Presentation/Headless Variants/Breadcrumb
+BranchID: "58f58c09-c349-4d63-b5e6-e9b8d3192f9a"
 SharedFields:
-- ID: "0966b999-0d0e-4278-acc9-9da69d461fe6"
-  Hint: PartialDesigns
-  Value: "{8F83DB15-AFDA-4FB2-AFC3-648138CEA893}|{07A03B74-C762-46BA-8251-A1F7952032E2}"
-- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
-  Hint: __Thumbnail
-  Value: |
-    <image mediaid="{58387FFA-BCF0-492E-96B1-8434E9BBC28E}" />
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/window_dialog.png
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{0E4CAFD1-104C-4F5B-B8F4-A813BE840F6C}"
 Languages:
 - Language: en
   Versions:
@@ -18,7 +18,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20240212T150034Z
+      Value: 20240430T100224Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -29,11 +29,11 @@ Languages:
         sitecore\darvi.sunny@tadigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c3233f62-9b1e-46dc-9132-39f80054c1a2"
+      Value: "4580df85-078b-43b2-9ae0-147e30aa5cd5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240508T071635Z
+      Value: 20240430T100224Z

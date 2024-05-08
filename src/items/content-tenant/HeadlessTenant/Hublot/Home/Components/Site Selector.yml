@@ -1,0 +1,34 @@
+﻿---
+ID: "fc60923d-052b-48b4-9410-3931c1c0b999"
+Parent: "15bba5e8-f31a-499a-98de-56dc91b67bb6"
+Template: "208fd3db-08b3-4bca-a8ad-77e84de60050"
+Path: /sitecore/content/HeadlessTenant/Hublot/Home/Components/Site Selector
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{4CD63FB6-5A5A-4B9E-B1BC-F44020ECC668}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240508T081606Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Site Selector
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f12221e8-1ebc-4bb1-ac42-26d936576fd0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240508T081606Z
+    - ID: "f0694dd8-d797-489a-b99b-c08d4b1958d9"
+      Hint: Title
+      Value: Site Selector

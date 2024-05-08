@@ -5,6 +5,9 @@ Template: "3bac055d-c2b4-4876-8814-4b3de13bf43f"
 Path: /sitecore/content/HeadlessTenant/Hublot/Presentation/Page Designs
 BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7b208FD3DB-08B3-4BCA-A8AD-77E84DE60050%7d%3d%257BDB8A7EB2-CFDE-4A6F-9ED6-2A30C93B78FC%257D"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
@@ -26,11 +29,11 @@ Languages:
         sitecore\darvi.sunny@tadigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1443ebb4-a2d8-4397-9060-6f517d4b789c"
+      Value: "eff4327e-1ebb-4e18-b2e2-51f52b2099c5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240201T050558Z
+      Value: 20240508T081705Z

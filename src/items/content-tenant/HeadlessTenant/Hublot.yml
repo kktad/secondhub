@@ -23,6 +23,7 @@ SharedFields:
     {F0EA389E-F78D-440B-9429-F04FE735344A}
     {AC1A27CA-6BF3-4D23-915E-668326D52CF1}
     {CB024AE8-85BE-42A9-BDB6-87CEE9F41E66}
+    {D6B86B76-4447-432E-B6C6-AB6A2EDF27B5}
 - ID: "2b2fe9fd-78a6-40eb-b9f9-28409d8d3700"
   Hint: SitemapMediaItems
   Value: "{ED6D55EA-EB90-42DF-ACED-078A45102D90}"
@@ -50,11 +51,11 @@ Languages:
         sitecore\darvi.sunny@tadigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ec81eff-a5a0-4150-8143-a03b84c3dc54"
+      Value: "7a8fce64-8ceb-4a24-8808-514e909d4ff9"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240201T063720Z
+      Value: 20240430T100224Z

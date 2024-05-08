@@ -1,0 +1,34 @@
+﻿---
+ID: "c181331a-a8e8-4a0a-8c92-7ecdc19a0817"
+Parent: "15bba5e8-f31a-499a-98de-56dc91b67bb6"
+Template: "208fd3db-08b3-4bca-a8ad-77e84de60050"
+Path: /sitecore/content/HeadlessTenant/Hublot/Home/Components/Language Selector
+SharedFields:
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{BD67001E-0394-47B9-859D-3C55CA4DAEEA}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240508T081552Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Language Selector
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c024533-38af-43aa-b26d-9ada045ca0f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240508T081552Z
+    - ID: "f0694dd8-d797-489a-b99b-c08d4b1958d9"
+      Hint: Title
+      Value: Language Selector

@@ -1,0 +1,55 @@
+﻿---
+ID: "660dacd8-4aba-4c6a-b043-2cf9de3b63f9"
+Parent: "15bba5e8-f31a-499a-98de-56dc91b67bb6"
+Template: "208fd3db-08b3-4bca-a8ad-77e84de60050"
+Path: /sitecore/content/HeadlessTenant/Hublot/Home/Components/Breadcrumb
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{DB8A7EB2-CFDE-4A6F-9ED6-2A30C93B78FC}"
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{7CE496E3-D13F-43E9-A6C2-C0F4D3F97204}" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{ED49F599-91B0-40D5-BD4E-414EB0BD60C7}"
+              s:ds=""
+              s:id="{661F7AEF-29A8-4934-BD88-5C7E7AD8714E}"
+              s:par="BreadcrumbRoot&amp;Separator=%3E&amp;IsNavigation=1&amp;Filter&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BCD832217-E320-4497-B45E-6010C106B4E7%7D&amp;Styles=%7B785C78DD-E056-40BD-8EF5-6D479CCD81A6%7D%7C%7BD452684A-C0F3-4105-99CF-ADDB995BA62B%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+              s:ph="headless-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240506T061002Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Breadcrumb
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "648998b0-7a1d-4e99-816e-8629d4acd5c7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\darvi.sunny@tadigital.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240508T111626Z
+    - ID: "f0694dd8-d797-489a-b99b-c08d4b1958d9"
+      Hint: Title
+      Value: Breadcrumb

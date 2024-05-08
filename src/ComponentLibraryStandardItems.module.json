@@ -1,0 +1,41 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "ComponentLibraryStandardItems",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+			{
+                "name": "CL-layout-feature",
+                "path": "/sitecore/layout/Layouts/Feature/Components Library"
+            },
+            {
+                "name": "CL-renderings-feature",
+                "path": "/sitecore/layout/Renderings/Feature/Components Library"
+            },
+			{
+                "name": "CL-placeholders-feature",
+                "path": "/sitecore/layout/Placeholder Settings/Feature/Components Library"
+            },
+            {
+                "name": "CL-media-library-feature",
+                "path": "/sitecore/media library/Feature/Components Library"
+            },
+             {
+                "name": "CL-settings-feature",
+                "path": "/sitecore/system/Settings/Feature/Components Library"
+            },
+            {
+                "name": "CL-system-renderingresolvers",
+                "path": "/sitecore/system/Modules/Layout Service/Rendering Contents Resolvers/Components Library"
+            },
+            {
+                "name": "CL-templates-branches",
+                "path": "/sitecore/templates/Branches/Feature/Components Library"
+            },
+            {
+                "name": "CL-templates-feature",
+                "path": "/sitecore/templates/Feature/Components Library"
+            }
+        ]
+    }
+}

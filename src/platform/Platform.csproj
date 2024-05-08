@@ -57,6 +57,9 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore.XA.Foundation.Mvc" />
+    <PackageReference Include="Sitecore.XA.Foundation.Navigation" />
+    <PackageReference Include="Sitecore.XA.Foundation.RenderingVariants" />
     <PackageReference Include="Sitecore.XmCloud.Kernel" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
@@ -73,7 +76,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="ContentResolvers\BreadcrumbRenderingContentsResolver.cs" />
     <Compile Include="ContentResolvers\FooterRenderingContentsResolver.cs" />
+    <Compile Include="Interface\IBreadcrumbRepository.cs" />
+    <Compile Include="Model\BreadcrumbRenderingModel.cs" />
+    <Compile Include="Repositories\BreadcrumbRepository.cs" />
+    <Compile Include="Repositories\FakeBreadcrumbRepository.cs" />
     <Compile Include="SitecoreFieldHelpers\LinkExtensions.cs" />
   </ItemGroup>
   <PropertyGroup>
