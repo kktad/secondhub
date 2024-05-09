@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Linq;
+﻿using ComponentsLibrary.SitecoreFieldHelpers;
+using Newtonsoft.Json.Linq;
 using Sitecore;
 using Sitecore.Common;
 using Sitecore.Configuration;
@@ -6,16 +7,13 @@ using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.Diagnostics;
 using Sitecore.LayoutService.Configuration;
-using Sitecore.LayoutService.Helpers;
 using Sitecore.LayoutService.ItemRendering.ContentsResolvers;
-using Sitecore.Links;
 using Sitecore.Mvc.Presentation;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
-using XmCloudSXAStarter.SitecoreFieldHelpers;
 
-namespace XmCloudSXAStarter.ContentResolvers
+namespace ComponentsLibrary.ContentResolvers
 {
     public class FooterRenderingContentsResolver : IRenderingContentsResolver
     {

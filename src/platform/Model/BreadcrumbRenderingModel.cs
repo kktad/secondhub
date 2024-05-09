@@ -2,7 +2,7 @@
 using Sitecore.XA.Foundation.Variants.Abstractions.Models;
 using System.Collections.Generic;
 
-namespace XmCloudSXAStarter.Model
+namespace ComponentsLibrary.Model
 {
     public class BreadcrumbRenderingModel : VariantsRenderingModel
     {

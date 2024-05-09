@@ -1,24 +1,18 @@
-﻿using DocumentFormat.OpenXml.EMMA;
-using DocumentFormat.OpenXml.Office2010.ExcelAc;
-using Newtonsoft.Json;
+﻿using ComponentsLibrary.Interface;
+using ComponentsLibrary.Model;
+using ComponentsLibrary.Repositories;
 using Newtonsoft.Json.Linq;
-using Sitecore.Data.Query;
 using Sitecore.Diagnostics;
 using Sitecore.LayoutService.Configuration;
 using Sitecore.LayoutService.ItemRendering.ContentsResolvers;
 using Sitecore.Links;
 using Sitecore.Mvc.Presentation;
-using Sitecore.Speak.Applications.Dependencies;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
-using System.IdentityModel.Protocols.WSTrust;
 using System.Linq;
-using XmCloudSXAStarter.Interface;
-using XmCloudSXAStarter.Model;
-using XmCloudSXAStarter.Repositories;
 
-namespace XmCloudSXAStarter.ContentResolvers
+namespace ComponentsLibrary.ContentResolvers
 {
     public class BreadcrumbRenderingContentsResolver : IRenderingContentsResolver
     {

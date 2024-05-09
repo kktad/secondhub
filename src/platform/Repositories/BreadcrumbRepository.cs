@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using ComponentsLibrary.Interface;
+using ComponentsLibrary.Model;
+using Microsoft.Extensions.DependencyInjection;
 using Sitecore.Data.Items;
 using Sitecore.DependencyInjection;
 using Sitecore.XA.Foundation.IoC;
@@ -10,10 +12,8 @@ using Sitecore.XA.Foundation.Variants.Abstractions.Fields;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using XmCloudSXAStarter.Interface;
-using XmCloudSXAStarter.Model;
 
-namespace XmCloudSXAStarter.Repositories
+namespace ComponentsLibrary.Repositories
 {
     public class BreadcrumbRepository : VariantsRepository,
     IBreadcrumbRepository,

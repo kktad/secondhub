@@ -15,7 +15,7 @@ type BreadcrumbProps = ComponentProps & {
     fields: Fields;
 };
 export const Default = (props: BreadcrumbProps): JSX.Element => {
-    console.log(props.fields)
+    console.log(props)
     return (
         <div className="">
             <span>

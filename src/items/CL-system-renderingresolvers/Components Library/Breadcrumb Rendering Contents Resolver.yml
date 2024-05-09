@@ -9,7 +9,7 @@ SharedFields:
   Value: ./*
 - ID: "de218ede-a9ad-4b04-86c5-9ff593ccf39d"
   Hint: Type
-  Value: XmCloudSXAStarter.ContentResolvers.BreadcrumbRenderingContentsResolver, XmCloudSXAStarter
+  Value: ComponentsLibrary.ContentResolvers.BreadcrumbRenderingContentsResolver, ComponentsLibrary
 Languages:
 - Language: en
   Versions:
@@ -28,11 +28,11 @@ Languages:
         sitecore\darvi.sunny@tadigital.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "7bba8fbb-fa73-4468-b8fa-3b94e2197bc4"
+      Value: "30dd7749-3514-496f-bce3-e259a1173030"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\darvi.sunny@tadigital.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20240507T102645Z
+      Value: 20240509T071241Z

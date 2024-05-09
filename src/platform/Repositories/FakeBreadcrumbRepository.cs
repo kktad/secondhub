@@ -1,8 +1,8 @@
 ﻿using Sitecore.Data.Items;
 using System.Collections.Generic;
-using XmCloudSXAStarter.Model;
+using ComponentsLibrary.Model;
 
-namespace XmCloudSXAStarter.Repositories
+namespace ComponentsLibrary.Repositories
 {
     internal class FakeBreadcrumbRepository : BreadcrumbRepository
     {

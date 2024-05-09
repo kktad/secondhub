@@ -3,9 +3,8 @@ using Sitecore.LayoutService.Helpers;
 using Sitecore.Links;
 using Sitecore.Resources.Media;
 using System;
-using System.Security.Policy;
 
-namespace XmCloudSXAStarter.SitecoreFieldHelpers
+namespace ComponentsLibrary.SitecoreFieldHelpers
 {
     public static class LinkExtensions
     {
